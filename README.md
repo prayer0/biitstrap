@@ -2,7 +2,7 @@
 
 > This is a submission for Bitcoin Association Hackathon.
 
-Biitstrap is a technique for bootstrapping a communication channel via a blockchain which is explained here: http://bin.bitproton.com/ip2ip_bitcoin. It's useful for every scenario where peers don't know each other's connection details.
+Biitstrap is a technique for bootstrapping a communication channel via a blockchain which is explained here: https://github.com/prayer0/biitstrap/doc/. It's useful for every scenario where peers don't know each other's connection details.
 
 Biitstrap Messenger is a little PoC messenger that employs this technique. Peers exchanges their public keys by broadcasting their connection details to the blockchain encryptedly to find each other's location. Then they start communicating off-chain.
 
