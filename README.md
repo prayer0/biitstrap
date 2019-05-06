@@ -2,7 +2,9 @@
 
 > This is a submission for Bitcoin Association Hackathon.
 
-Video Preview: https://youtu.be/Ygv1BCiWdGA
+**Video Preview:** https://youtu.be/Ygv1BCiWdGA
+
+**Important note:** This is incomplete version. Please refer this bugfixed version (https://github.com/prayer0/biitstrap-messenger) that is slightly changed after hackathon, for better understanding and instructions.
 
 Biitstrap is a technique for bootstrapping a communication channel via a blockchain which is explained here: https://github.com/prayer0/biitstrap/blob/master/doc/README.md. It's useful for every scenario where peers don't know each other's connection details.
 
