@@ -67,7 +67,7 @@ php biitstrap server
 
 ## Apologizes & Notes
 
-- Sorry for shitcoding. 
+- Sorry for shitcoding. Came late to the party.
 - Some features like challenge signatures that is defined in the technical draft are avoided for gaining speed for this implementation.
 - App doesn't work if funding wallet goes out of balance. It can be found in `config/services.yaml` and can be refunded.
 - Port 80 and 8080 should be accessible.
