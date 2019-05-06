@@ -65,7 +65,7 @@ php biitstrap server
 5. On second machine's webpage, there should be and invite alert, confirm it.
 6. After this point, two machines should be able to communicate through websockets if port configurations are ok. 
 
-## Apologizes & Notes
+## Notes
 
 - Sorry for shitcoding.
 - Some features like challenge signatures that is defined in the technical draft are avoided for gaining speed for this implementation.
