@@ -1,0 +1,87 @@
+<div class="messenger">
+	<h1>Biitstrap Messenger</h1>
+	<div class="instructions">
+		<p>Biitstrap Messenger is a communication tool for peers who don't know each other's connection details. 
+		</p>
+		<p>A peer can exchange their public keys with each other and broadcast their connection details in an encrypted fashion to the blockchain to find each other's real world location. Then they start communicating off-chain.</p>
+	</div>
+	<div class="header">
+		<h3>Peer Info</h3>
+		<div class="in">
+			<div class="leftcol">
+				<div class="">
+					<div class="t">Connection Status</div>
+					<div class="b">Disconnected</div>
+				</div>
+
+				<div class="">
+					<div class="t">Your Public Key</div>
+					<div class="b">{{ publicKey }}</div>
+				</div>
+				
+				<div class="">
+					<div class="t">Peer Public Key</div>
+					<div class="b">undefined</div>
+				</div>
+			</div>
+
+			<form class="inviteform">
+				<div class="l">
+					<input type="text" placeholder="Public Key">
+				</div>
+				<div class="r">
+					<button type="submit">Invite</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="messages">
+		<h3>Messages</h3>
+
+		<div class="collection">
+			<div class="messageunit received">
+				<div class="h">
+					<div class="sender">From: 2d1004a928e0c8017a9df5f1e573a2327f38073ccdf81d7bf87a5a06d98fdbde</div>
+					<div class="recipient">To: e11e9ad242f29ef4f3b973a47c4fce8d6397c7d8a0756ab75338fd751ee19c73</div>
+					<div class="date">Date: {{ 'now'|date }}</div>
+				</div>
+				<div class="c">
+					Hey
+				</div>
+			</div>
+
+			<div class="messageunit sent">
+				<div class="h">
+					<div class="sender">From: e11e9ad242f29ef4f3b973a47c4fce8d6397c7d8a0756ab75338fd751ee19c73</div>
+					<div class="recipient">To: 2d1004a928e0c8017a9df5f1e573a2327f38073ccdf81d7bf87a5a06d98fdbde</div>
+					<div class="date">Date: {{ 'now'|date }}</div>
+				</div>
+				<div class="c">
+					Hello bro.
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<form class="messageform">
+
+			<div class="form-group">
+				<div class="row">
+					<div class="right">
+						<textarea></textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group submit-group">
+				<div class="row">
+					<div class="right">
+						<button type="submit" class="button button--block button--primary">Send</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
