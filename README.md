@@ -4,7 +4,7 @@
 
 **Video Preview:** https://youtu.be/Ygv1BCiWdGA
 
-**Important note:** This is incomplete version. Please refer this bugfixed version (https://github.com/prayer0/biitstrap-messenger) that is slightly changed after hackathon, for better understanding and instructions.
+**Important note:** This is incomplete version. For better understanding and instructions, Please refer this bugfixed version (https://github.com/prayer0/biitstrap-messenger) which has been slightly changed after the hackathon.
 
 Biitstrap is a technique for bootstrapping a communication channel via a blockchain which is explained here: https://github.com/prayer0/biitstrap/blob/master/doc/README.md. It's useful for every scenario where peers don't know each other's connection details.
 
