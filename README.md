@@ -73,3 +73,4 @@ php biitstrap server
 - Port 80 and 8080 should be accessible.
 - Machines find each other but I couldn't find time to test off-chain messaging on live server. And it may not work on local machine properly.
 - Please use two different (non-local) machines.
+- Wait all js files (there are too many) to be loaded before interaction.
