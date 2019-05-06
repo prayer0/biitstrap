@@ -12,7 +12,7 @@ Devices can communicate with each other by using only public keys thanks to this
 
 **Video Preview:** https://youtu.be/Ygv1BCiWdGA
 
-### **Important note:** This is incomplete version. For better understanding and instructions, Please refer this bugfixed version (https://github.com/prayer0/biitstrap-messenger) which has been slightly changed after the hackathon.
+### **Important note:** This is incomplete version. For better understanding and instructions, please refer this bugfixed version (https://github.com/prayer0/biitstrap-messenger) which has been slightly changed after the hackathon.
 
 ## Requirements
 
