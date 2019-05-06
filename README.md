@@ -16,8 +16,8 @@ Devices can be interconnected by using only public keys thanks to this technique
 
 ## Requirements
 
-Requirements: PHP, Composer, MySQL
-Open Ports: 80, 8080 
+- Requirements: PHP, Composer, MySQL
+- Open Ports: 80, 8080 
 
 ## Setup
 
